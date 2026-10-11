@@ -1,0 +1,2 @@
+# Only needed for browser checks and recording; the app itself uses the Python standard library.
+playwright==1.62.0
