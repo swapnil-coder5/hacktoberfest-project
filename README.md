@@ -71,7 +71,7 @@ Keep this single-user prototype on a trusted computer. It has no multi-user auth
 
 **The model is part of the product, not a badge.** Qwen 2.5 interprets informal notes, separates ingredients from steps, preserves the speaker’s voice, and flags information the note never supplied. Ollama provides the inference runtime and constrained JSON output. The app validates that output and makes the user review it.
 
-Qwen2.5-1.5B is an open-weight model under Apache 2.0; Ollama is open source under MIT. Sunday Table is also MIT licensed. Model weights are downloaded separately and are not included in this repository.
+Qwen2.5-1.5B is an open-weight model under Apache 2.0; Ollama is open source under MIT. These third-party licenses do not license Sunday Table itself. No license is granted for the Sunday Table source code; all rights are reserved by its copyright holders. Model weights are downloaded separately and are not included in this repository.
 
 This approach makes three things possible:
 
