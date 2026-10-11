@@ -121,7 +121,7 @@ Real-model smoke check after Ollama is connected:
 python3 scripts/check_model.py
 ```
 
-**Current validation:** 10 API integration tests and 13 browser workflow checks passed, including mobile layouts at 390, 768, and 1024 pixels. The success-path model response in those tests is a labeled fixture. A real model run could not be performed in the build environment because model-provider downloads were denied by its network policy. The real-model smoke check remains required before claiming a live AI demo.
+**Current validation:** 10 API integration tests and 13 browser workflow checks passed, including mobile layouts at 390, 768, and 1024 pixels. The success-path model response in those tests is a labeled fixture. The separate real-model smoke check has also passed locally with `qwen2.5:1.5b`; review model output manually because a smoke check does not prove accuracy.
 
 ## Project map
 
@@ -132,7 +132,7 @@ static/style.css           Responsive interface and print layout
 static/app.js              Cookbook state, editing, import/export and AI review
 static/*.svg               Original bundled food illustrations and icon
 scripts/check_model.py     Real-model end-to-end smoke check
-scripts/record_demo.py      Record the labeled sample walkthrough
+scripts/record_demo.py      Record the live local-AI walkthrough
 tests/                    API and browser checks
 docs/SUBMISSION.md         Submission post, demo script and handoff checklist
 docs/screenshots/         Desktop, recipe, review and mobile captures

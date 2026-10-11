@@ -4,7 +4,7 @@
 
 The challenge calls for a **real friend or loved one**. Mira and Nani are fictional demo personas. Replace the bracketed details below with a truthful story about someone you know, and use their recipes or notes only with permission. Do not present the sample story as a real user testimonial.
 
-The app is complete as a local prototype. Live model inference still needs to be run on your computer: this build environment blocked model downloads. The sample walkthrough is not evidence of a live AI run.
+The app is complete as a local prototype. Live model inference and the real-model smoke check have run successfully on this computer with `qwen2.5:1.5b`. The included walkthrough records a real local extraction; model output still needs human review for accuracy.
 
 ## Post draft
 
@@ -37,7 +37,7 @@ Demo: [your actual recording or deployment URL]
 6. **70–80 s — ownership.** Export the cookbook. Explain that it is stored in this browser and can be taken elsewhere.
 7. **80–90 s — open matters.** “Qwen and Ollama are what make the local workflow possible. The model and prompt are replaceable, and the family keeps control of its notes.”
 
-If you only have time to record the included sample: call it a **sample workflow walkthrough**, disclose that the inference demo has not been run, and avoid claiming a working live model.
+The included walkthrough was recorded with Ollama connected and real local inference. If you replace it with a sample-only recording, label that version clearly and do not present a prewritten sample draft as AI output.
 
 ## Files ready to use
 
@@ -45,7 +45,7 @@ If you only have time to record the included sample: call it a **sample workflow
 - `docs/screenshots/recipe.png` — a recipe and ingredient checklist.
 - `docs/screenshots/review.png` — the explicitly labeled sample draft.
 - `docs/screenshots/mobile.png` — mobile layout.
-- `docs/demo-walkthrough.mp4` — a labeled sample walkthrough, if generated.
+- `docs/demo-walkthrough.mp4` — a labeled walkthrough with real local Qwen inference.
 
 All recipe illustrations are original bundled SVG assets. Sample recipes and memories are illustrative and should not be presented as actual family history.
 
